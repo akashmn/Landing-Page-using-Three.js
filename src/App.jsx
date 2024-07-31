@@ -1,9 +1,13 @@
 import Loader from "./assets/Components/Loader"
+import Routing from "./assets/Pages/Routing"
 
 
 const App = () => {
   return (
-    <Loader />
+    <>
+      <Loader />
+      <Routing/>
+    </>
   )
 }
 
