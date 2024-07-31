@@ -1,14 +1,23 @@
-import Loader from "./assets/Components/Loader"
-import Routing from "./assets/Pages/Routing"
-
+import { useState, useEffect } from 'react';
+import Loader from "./assets/Components/Loader";
+import Routing from "./assets/Pages/Routing";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 5500); // Loader will be displayed for 3 seconds
+
+    return () => clearTimeout(timer); // Cleanup the timer
+  }, []);
+
   return (
     <>
-      <Loader />
-      <Routing/>
+      {loading ? <Loader /> : <Routing />}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
