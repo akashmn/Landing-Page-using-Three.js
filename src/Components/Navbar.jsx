@@ -4,7 +4,7 @@ import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [popUp, setPopUp] = useState(false);
-  const [activeLink, setActiveLink] = useState('');
+  const [activeLink, setActiveLink] = useState('Home');
 
   const togglePopup = () => {
     setPopUp(!popUp);
