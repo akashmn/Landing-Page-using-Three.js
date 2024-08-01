@@ -15,7 +15,7 @@ const Navbar = () => {
         <p>Qmark Technolabs</p>
         <div className="flex flex-row gap-10">
           <a href="">Home</a>
-          <a href="">Projects</a>
+          <a href="">Works</a>
           <a href="">Team</a>
           <button onClick={togglePopup}>
             <FontAwesomeIcon
@@ -34,7 +34,7 @@ const Navbar = () => {
       {popUp && (
         <div className='ml-[750px] -mt-4 p-6 z-20 bg-black h-[200px] w-[250px] absolute rounded-xl transition duration-700 ease-in-out opacity-95 flex flex-col gap-2'>
           <a href="" className='text-white p-3 hover:underline'>Careers</a>
-          <a href="" className='text-white p-3 hover:underline'>Explore</a>
+          <a href="" className='text-white p-3 hover:underline'>Services</a>
           <a href="" className='text-white p-3 hover:underline'>More</a>
         </div>
       )}
