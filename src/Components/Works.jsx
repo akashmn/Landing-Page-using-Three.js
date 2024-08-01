@@ -1,4 +1,8 @@
 import work1 from '../assets/Images/work1.png'
+import work2 from '../assets/Images/work2.png'
+import work3 from '../assets/Images/work3.png'
+import work4 from '../assets/Images/work4.png'
+import work5 from '../assets/Images/work5.png'
 
 const Works = () => {
     return (
@@ -13,11 +17,31 @@ const Works = () => {
                     <img src={work1} alt="" className='w-full h-full' />
                 </div>
             </div>
-            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black"></div>
-            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black"></div>
-            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black"></div>
-            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black"></div>
-            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black"></div>
+            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black p-3 hover:bg-sky-500">
+                <div className="h-[150px] bg-white rounded-3xl border-black border-2 hover overflow-hidden">
+                    <img src={work2} alt="" className='w-full h-full' />
+                </div>
+            </div>
+            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black p-3 hover:bg-sky-500">
+                <div className="h-[150px] bg-white rounded-3xl border-black border-2 hover overflow-hidden">
+                    <img src={work3} alt="" className='w-full h-full' />
+                </div>
+            </div>
+            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black p-3 hover:bg-sky-500">
+                <div className="h-[150px] bg-white rounded-3xl border-black border-2 hover overflow-hidden">
+                    <img src={work4} alt="" className='w-full h-full' />
+                </div>
+            </div>
+            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black p-3 hover:bg-sky-500">
+                <div className="h-[150px] bg-white rounded-3xl border-black border-2 hover overflow-hidden">
+                    <img src={work5} alt="" className='w-full h-full' />
+                </div>
+            </div>
+            <div className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black p-3 hover:bg-sky-500">
+                <div className="h-[150px] bg-white rounded-3xl border-black border-2 hover overflow-hidden">
+                    <img src={work1} alt="" className='w-full h-full' />
+                </div>
+            </div>
           </div>
         </div>
       </div>
