@@ -1,5 +1,6 @@
 import HeroSection from "../Components/HeroSection"
 import Navbar from "../Components/Navbar"
+import Works from "../Components/Works"
 
 
 const LandingPage = () => {
@@ -7,7 +8,8 @@ const LandingPage = () => {
     <>  
         <Navbar />
         <HeroSection/>
-        <HeroSection/>
+        <Works/>
+        <Works/>
     </>
   )
 }
