@@ -2,7 +2,11 @@
 
 const HeroSection = () => {
   return (
-    <div>HeroSection</div>
+    <div className="px-6 py-4">
+        <div className="h-[620px] w-full rounded-3xl border-black border-2">
+            
+        </div>
+    </div>
   )
 }
 
