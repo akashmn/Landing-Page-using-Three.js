@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import Loader from "./assets/Components/Loader";
-import Routing from "./assets/Pages/Routing";
+import Loader from './Components/Loader';
+import Routing from './Pages/Routing';
 
 const App = () => {
   const [loading, setLoading] = useState(true);

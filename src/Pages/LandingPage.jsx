@@ -7,6 +7,7 @@ const LandingPage = () => {
     <>  
         <Navbar />
         <HeroSection/>
+        <HeroSection/>
     </>
   )
 }
