@@ -3,6 +3,8 @@ import work2 from '../assets/Images/work2.png';
 import work3 from '../assets/Images/work3.png';
 import work4 from '../assets/Images/work4.png';
 import work5 from '../assets/Images/work5.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 const works = [
   {
@@ -60,6 +62,10 @@ const Works = () => {
             </div>
           ))}
         </div>
+        <a href='#' className='flex flex-row items-center justify-center mt-10 gap-3'>
+          <p className='tracking-widest opacity-50'> Show more</p>
+          <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="opacity-50" style={{color: "#000"}} />
+        </a>
       </div>
     </div>
   );
