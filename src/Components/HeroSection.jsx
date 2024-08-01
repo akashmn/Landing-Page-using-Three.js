@@ -1,4 +1,4 @@
-
+import googleBadge from '../assets/Images/google_badge.png'
 
 const HeroSection = () => {
   return (
@@ -10,7 +10,9 @@ const HeroSection = () => {
           </div>
 
           <div>
-            <div className="h-[150px] w-[300px] border-2 border-black rounded-3xl"></div>
+            <div className="h-[115px] w-[300px] border-2 border-black rounded-3xl overflow-hidden">
+              <img src={googleBadge} alt="" className="h-full w-full object-fill"/>
+            </div>
           </div>
         </div>
     </div>
