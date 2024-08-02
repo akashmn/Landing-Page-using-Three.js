@@ -1,12 +1,23 @@
 import googleBadge from '../assets/Images/google_badge.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const HeroSection = () => {
+
+  AOS.init();
+
   return (
     <div className="z-0 px-6 py-4">
         <div className="h-[620px] w-full rounded-3xl border-black border-2 flex flex-col justify-center items-center gap-4">
           <div className="flex flex-col items-center justify-center">
-            <p className="text-7xl">The Loud Soluion For</p>
-            <p className="text-8xl">Unheard Problems.</p>
+            <p className="text-7xl" 
+                data-aos="fade-up"
+                data-aos-duration="1200">
+                  The Loud Soluion For</p>
+            <p className="text-8xl" 
+                data-aos="fade-up"
+                data-aos-duration="1600">Unheard Problems.</p>
           </div>
 
           <div className='flex flex-row gap-5'>
