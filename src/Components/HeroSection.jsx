@@ -56,6 +56,7 @@ const HeroSection = () => {
               }}
               options={{
                 delay: 150, // Typing speed in milliseconds
+                loop: true,
               }}
             />
             </p>
