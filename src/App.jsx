@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Loader from './Components/Loader';
 import Routing from './Pages/Routing';
+import AnimateCursor from './Components/AnimateCursor';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -15,6 +16,7 @@ const App = () => {
 
   return (
     <>
+      <AnimateCursor/>
       <Routing />
     </>
   );
