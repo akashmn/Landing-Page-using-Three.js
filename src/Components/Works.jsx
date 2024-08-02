@@ -45,6 +45,8 @@ const Works = () => {
         <div className="flex flex-wrap items-center mt-8 justify-center px-[200px] gap-1">
           {works.map((work, index) => (
             <div
+              data-aos="zoom-in"
+              data-aos-duration="1000"              
               key={index}
               className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black p-2 hover:bg-sky-500 transition-all duration-300"
             >
