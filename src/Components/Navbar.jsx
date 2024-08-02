@@ -55,7 +55,7 @@ const Navbar = () => {
         </button>
       </div>
       {popUp && (
-        <div className='ml-[750px] -mt-4 p-6 z-20 bg-black h-[200px] w-[250px] absolute rounded-xl transition duration-700 ease-in-out opacity-95 flex flex-col gap-2'>
+        <div data-aos="zoom-in-down" className='ml-[750px] -mt-4 p-6 z-20 bg-black h-[200px] w-[250px] absolute rounded-xl transition duration-700 ease-in-out opacity-95 flex flex-col gap-2'>
           <a
             href="#"
             className={`text-white p-3 hover:underline ${activeLink === 'Careers' ? 'font-bold underline' : ''}`}
