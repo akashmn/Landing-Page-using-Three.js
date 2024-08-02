@@ -5,6 +5,7 @@ import work4 from '../assets/Images/work4.png';
 import work5 from '../assets/Images/work5.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import Typewriter from 'typewriter-effect';
 
 const works = [
   {
@@ -63,7 +64,25 @@ const Works = () => {
           ))}
         </div>
         <a href='#' className='flex flex-row items-center justify-center mt-10 gap-3'>
-          <p className='tracking-widest opacity-50'> Show more</p>
+          <p className='tracking-widest opacity-50'>
+          <Typewriter
+              onInit={(typewriter) => {
+              typewriter.typeString('Show More')
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString('Take a Look')
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString('So Far So Good')
+              .pauseFor(1000)
+              .start();
+              }}
+              options={{
+                delay: 150,
+                loop: true,
+              }}
+            />
+          </p>
           <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="opacity-50" style={{color: "#000"}} />
         </a>
       </div>
