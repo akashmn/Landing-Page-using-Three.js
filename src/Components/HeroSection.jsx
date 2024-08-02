@@ -1,6 +1,9 @@
 import googleBadge from '../assets/Images/google_badge.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import Typewriter from 'typewriter-effect';
 
 
 const HeroSection = () => {
@@ -9,9 +12,9 @@ const HeroSection = () => {
 
   return (
     <div className="z-0 px-6 py-4">
-        <div className="h-[620px] w-full rounded-3xl border-black border-2 flex flex-col justify-center items-center gap-4">
-          <div className="flex flex-col items-center justify-center">
-            <p className="text-7xl" 
+        <div className="h-[620px] w-full rounded-3xl border-black border-2 flex flex-col justify-center items-center gap-8">
+          <div className="flex flex-col items-center justify-center mt-20">
+            <p className="text-8xl" 
                 data-aos="fade-up"
                 data-aos-duration="1200">
                   The Loud Soluion For</p>
@@ -37,6 +40,27 @@ const HeroSection = () => {
                   <img src={googleBadge} alt="" className="h-full w-full object-fill"/>
             </div>
           </div>
+          <a href='#' className='flex flex-row items-center justify-center mt-10 gap-3'>
+            <p className='tracking-widest opacity-50'>
+              <Typewriter
+              onInit={(typewriter) => {
+              typewriter.typeString('Come Explore with Us')
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString('Discover New Horizons')
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString('Join Our Journey')
+              .pauseFor(1000)
+              .start();
+              }}
+              options={{
+                delay: 150, // Typing speed in milliseconds
+              }}
+            />
+            </p>
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="opacity-50" style={{color: "#000"}} />
+          </a>
         </div>
     </div>
   )
