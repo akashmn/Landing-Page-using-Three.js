@@ -65,12 +65,10 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-left"
-                data-aos-duration="1000"
-                className="flex flex-col items-center justify-center gap-10 ml-52">
-                <p className="text-5xl tracking-wide">Presenting Ourselves!</p>
-                <p className="text-lg">Our team of passionate designers, developers, and marketing specialists collaborates to bring your vision to life. We create beautiful, user-friendly websites and mobile apps, craft compelling design elements that elevate your brand, and implement data-driven digital marketing strategies to reach your target audience.</p>
-                <p className="text-lg">At Qmark Technolabs, we offer a spectrum of services designed to meet the diverse needs of businesses today.</p>
+            <div className="flex flex-col items-center justify-center gap-10 ml-52">
+                <p data-aos="fade-left" data-aos-duration="1000" className="text-5xl font-bold tracking-wide">Presenting Ourselves!</p>
+                <p data-aos="fade-left" data-aos-duration="1000" className="text-lg tracking-wider">Our team of passionate designers, developers, and marketing specialists collaborates to bring your vision to life. We create beautiful, user-friendly websites and mobile apps, craft compelling design elements that elevate your brand, and implement data-driven digital marketing strategies to reach your target audience.</p>
+                <p data-aos="fade-left" data-aos-duration="1000" className="text-lg tracking-wider">At Qmark Technolabs, we offer a spectrum of services designed to meet the diverse needs of businesses today.</p>
             </div>
         </div>
     </div>
