@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <>
-      <Loader />
+      {loading ? <Loader /> : <Routing />}
     </>
   );
 }
