@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faGithub, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -14,13 +15,24 @@ const Footer = () => {
             <button className="h-[59px] w-[90px] rounded-2xl -ml-[93px] font-semibold hover:bg-black hover:text-white hover:border-white hover:border-2 transition-all duration-300 bg-white">Send</button>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className='flex flex-row'>
           <div className="flex flex-col gap-5">
-            <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">About</a>
-            <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">Works</a>
-            <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">Team</a>
-            <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">Services</a>
-            <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">More</a>
+            <div className="flex flex-col gap-5">
+              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">About</a>
+              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">Works</a>
+              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">Team</a>
+              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">Services</a>
+              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">More</a>
+            </div>
+            <div className="flex flex-row gap-5">
+              <a href=""><FontAwesomeIcon icon={faFacebookF} className="h-4 w-4 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
+              <a href=""><FontAwesomeIcon icon={faXTwitter} className="h-4 w-4 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
+              <a href=""><FontAwesomeIcon icon={faInstagram} className="h-4 w-4 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
+              <a href=""><FontAwesomeIcon icon={faGithub} className="h-4 w-4 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
+            </div>
+          </div>
+          <div className='ml-28 mt-[170px]'>
+            <p className="text-white opacity-50 mt-10">© 2024 Qmark Technolabs. <br />All Rights Reserved</p>
           </div>
         </div>
       </div>
