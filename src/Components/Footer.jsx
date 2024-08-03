@@ -3,7 +3,7 @@ import { faFacebookF, faGithub, faInstagram, faXTwitter } from '@fortawesome/fre
 
 const Footer = () => {
   return (
-    <div className="h-[500px] w-full px-24 pt-16">
+    <div className="h-[500px] w-full px-24 max-sm:px-3 pt-16 max-sm:pt-3">
       <div className="h-[400px] w-full bg-black rounded-3xl px-20 py-14 flex flex-row gap-44">
         <div className="flex flex-col">
           <div className="flex flex-col">
