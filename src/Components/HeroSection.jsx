@@ -15,7 +15,9 @@ const HeroSection = () => {
   return (
     <div className="relative h-screen flex justify-center items-center">
       <div className="relative w-full h-[620px] rounded-3xl border-black border-2 overflow-hidden select-none mx-5 -mt-20">
-        <ParticleRing className="absolute inset-0 max-sm:hidden" />
+        <div className='max-sm:hidden'>
+          <ParticleRing className="absolute inset-0 max-sm:hidden" />
+        </div>
         <div className="relative z-10 flex flex-col justify-center items-center gap-8 px-6 py-4 bg-white bg-opacity-0 h-full pointer-events-none">
           <div className="flex flex-col items-center justify-center mt-20">
             <p className="text-8xl pointer-events-auto" 
