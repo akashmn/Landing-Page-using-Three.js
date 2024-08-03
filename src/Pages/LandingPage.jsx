@@ -7,13 +7,13 @@ import Works from "../Components/Works"
 
 const LandingPage = () => {
   return (
-    <>  
+    <div className="flex flex-col">  
         <Navbar />
         <HeroSection/>
         <About/>
         <Works/>
         <Footer/>
-    </>
+    </div>
   )
 }
 

@@ -38,16 +38,16 @@ const works = [
 const Works = () => {
   return (
     <div className="py-2">
-      <div className="bg-yellow-200 h-screen w-full py-7 z-20">
+      <div className="bg-yellow-200 min-h-screen w-full py-7 z-20">
         <center className="">
-          <p className="text-6xl text-black">Our Works</p>
+          <p className="text-4xl md:text-6xl text-black">Our Works</p>
         </center>
-        <div className="flex flex-wrap items-center mt-8 justify-center px-[200px] gap-1">
+        <div className="flex flex-wrap items-center mt-8 justify-center px-4 md:px-[200px] gap-4 md:gap-1">
           {works.map((work, index) => (
             <div key={index}
               data-aos='zoom-in'
               data-aos-duration='500'
-              className="h-[260px] w-[300px] bg-white rounded-3xl border-[3px] border-black p-2 hover:bg-sky-500 transition-all duration-300"
+              className="h-[260px] w-[90%] md:w-[300px] bg-white rounded-3xl border-[3px] border-black p-2 hover:bg-sky-500 transition-all duration-300"
             >
               <div className="h-[170px] bg-white rounded-3xl border-black border-2 hover overflow-hidden">
                 <img src={work.imgSrc} alt="" className="w-full h-full" />
