@@ -18,14 +18,14 @@ const HeroSection = () => {
         <div className='max-sm:hidden'>
           <ParticleRing className="absolute inset-0 max-sm:hidden" />
         </div>
-        <div className="relative z-10 flex flex-col justify-center items-center gap-8 px-6 py-4 bg-white bg-opacity-0 h-full pointer-events-none">
+        <div className="relative z-10 flex flex-col justify-center items-center gap-8 px-6 py-4 max-sm:py-0 bg-white bg-opacity-0 h-full pointer-events-none">
           <div className="flex flex-col items-center justify-center mt-20">
-            <p className="text-8xl pointer-events-auto" 
+            <p className="text-8xl max-sm:text-6xl pointer-events-auto"
                 data-aos="fade-up"
                 data-aos-duration="1200">
                   The Loud Solution For
             </p>
-            <p className="text-8xl pointer-events-auto" 
+            <p className="text-8xl max-sm:text-6xl pointer-events-auto" 
                 data-aos="fade-up"
                 data-aos-duration="1600"
                 data-aos-anchor-placement="bottom-bottom">
