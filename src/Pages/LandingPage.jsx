@@ -7,7 +7,7 @@ import Works from "../Components/Works"
 
 const LandingPage = () => {
   return (
-    <div className="flex flex-col">  
+    <div className="flex flex-col max-sm:overflow-x-hidden overflow-x-hidden">  
         <Navbar />
         <HeroSection/>
         <About/>
