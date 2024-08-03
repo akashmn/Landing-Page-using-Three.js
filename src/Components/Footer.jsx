@@ -4,7 +4,7 @@ import { faFacebookF, faGithub, faInstagram, faXTwitter } from '@fortawesome/fre
 const Footer = () => {
   return (
     <div className="h-[500px] max-sm:h-screen w-full px-24 max-sm:px-3 pt-16 max-sm:pt-3 max-sm:pb-3">
-      <div className="w-full bg-black rounded-3xl px-20 py-14 max-sm:px-10 max-sm:py-7 flex flex-row max-sm:flex-col gap-44">
+      <div className="w-full bg-black rounded-3xl px-20 py-14 max-sm:px-10 max-sm:py-7 flex flex-row max-sm:flex-col gap-44 max-sm:gap-10">
         <div className="flex flex-col">
           <div className="flex flex-col">
             <p className="h-[80px] w-[250px] max-sm:h-[45px] max-sm:w-[150px] border-white border-2 bg-green-700 text-4xl max-sm:text-2xl text-white rounded-full px-8 py-5 max-sm:px-3 max-sm:py-1">Subscribe</p>
@@ -15,14 +15,14 @@ const Footer = () => {
             <button className="h-[59px] w-[90px] max-sm:h-[30px] max-sm:w-[45px] rounded-2xl -ml-[93px] max-sm:-ml-[48px] font-semibold hover:bg-black hover:text-white max-sm:text-sm hover:border-white hover:border-2 transition-all duration-300 bg-white">Send</button>
           </div>
         </div>
-        <div className='flex flex-row max-sm:flex-col'>
+        <div className='flex flex-row max-sm:flex-col-reverse'>
           <div className="flex flex-col gap-5">
-            <div className="flex flex-col gap-5">
-              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">About</a>
-              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">Works</a>
-              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">Team</a>
-              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">Services</a>
-              <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">More</a>
+            <div className="flex flex-col max-sm:flex-row gap-5 max-sm:gap-3 max-sm:-ml-2">
+              <a href="" className="text-white max-sm:text-sm opacity-70 hover:opacity-100 transition-all duration-300">About</a>
+              <a href="" className="text-white max-sm:text-sm opacity-70 hover:opacity-100 transition-all duration-300">Works</a>
+              <a href="" className="text-white max-sm:text-sm opacity-70 hover:opacity-100 transition-all duration-300">Team</a>
+              <a href="" className="text-white max-sm:text-sm opacity-70 hover:opacity-100 transition-all duration-300">Services</a>
+              <a href="" className="text-white max-sm:text-sm opacity-70 hover:opacity-100 transition-all duration-300">More</a>
             </div>
             <div className="flex flex-row gap-5">
               <a href=""><FontAwesomeIcon icon={faFacebookF} className="h-4 w-4 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
