@@ -24,11 +24,11 @@ const Footer = () => {
               <a href="" className="text-white max-sm:text-sm opacity-70 hover:opacity-100 transition-all duration-300">Services</a>
               <a href="" className="text-white max-sm:text-sm opacity-70 hover:opacity-100 transition-all duration-300">More</a>
             </div>
-            <div className="flex flex-row gap-5">
-              <a href=""><FontAwesomeIcon icon={faFacebookF} className="h-4 w-4 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
-              <a href=""><FontAwesomeIcon icon={faXTwitter} className="h-4 w-4 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
-              <a href=""><FontAwesomeIcon icon={faInstagram} className="h-4 w-4 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
-              <a href=""><FontAwesomeIcon icon={faGithub} className="h-4 w-4 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
+            <div className="flex flex-row gap-5 max-sm:gap-3 max-sm:ml-10">
+              <a href=""><FontAwesomeIcon icon={faFacebookF} className="h-4 w-4 max-sm:h-3 max-sm:w-3 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
+              <a href=""><FontAwesomeIcon icon={faXTwitter} className="h-4 w-4 max-sm:h-3 max-sm:w-3 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
+              <a href=""><FontAwesomeIcon icon={faInstagram} className="h-4 w-4 max-sm:h-3 max-sm:w-3 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
+              <a href=""><FontAwesomeIcon icon={faGithub} className="h-4 w-4 max-sm:h-3 max-sm:w-3 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
             </div>
           </div>
           <div className='ml-28 mt-[170px]'>
