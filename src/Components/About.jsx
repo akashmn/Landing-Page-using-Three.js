@@ -3,25 +3,21 @@
 const About = () => {
   return (
     <div className="py-3 flex flex-row">
-        <div className="h-screen w-full bg-green-600 px-[250px] py-16 flex flex-row items-center justify-between">
-            <div>
-                <div data-aos="fade-right" 
-                    data-aos-duration="500"
-                    className="rotate-[-12deg] h-[260px] w-[230px] border-2 p-3 bg-white border-black rounded-2xl flex flex-col items-center justify-start gap-2 hover:bg-sky-500 transition-all duration-300 -z-20">
-                    <div data-aos="zoom-in" 
-                         data-aos-duration="2000"
-                         className="h-[70px] w-full  bg-white border-black border-2 rounded-2xl flem items-center justify-center">
-                        <p className="text-2xl tracking-wider px-5 py-5 uppercase">We design</p>
+        <div className="h-screen max-sm:h-[2000px] w-full bg-green-600 px-[250px] max-sm:px-[5px] py-16 max-sm:py-8 flex flex-row max-sm:flex-col items-center justify-between">
+            <div className="">
+                <div 
+                    className="rotate-[-12deg] h-[260px] w-[230px] max-sm:h-[180px] max-sm:w-[190px] border-2 p-3 bg-white border-black rounded-2xl flex flex-col items-center justify-start gap-2 max-sm:gap-3 hover:bg-sky-500 transition-all duration-300 -z-20">
+                    <div 
+                         className="h-[40px] w-full  bg-white border-black border-2 rounded-2xl flem items-center justify-center">
+                        <p className="text-2xl max-sm:text-lg tracking-wider px-5 py-5 max-sm:px-5 max-sm:py-1 uppercase">We design</p>
                     </div>
-                    <div data-aos="zoom-in" 
-                         data-aos-duration="2500"
-                         className="h-[70px] w-full bg-white border-black border-2 rounded-2xl flem items-center justify-center">
-                        <p className="text-2xl tracking-wider px-2 py-5 uppercase">We develop</p>
+                    <div 
+                         className="h-[40px] w-full  bg-white border-black border-2 rounded-2xl flem items-center justify-center">
+                        <p className="text-2xl max-sm:text-lg tracking-wider px-5 py-5 max-sm:px-2 max-sm:py-1 uppercase">We Develop</p>
                     </div>
-                    <div data-aos="zoom-in" 
-                         data-aos-duration="3000"
-                         className="h-[70px] w-full bg-white border-black border-2 rounded-2xl flem items-center justify-center">
-                        <p className="text-2xl tracking-wider px-1 py-5 uppercase">We promote</p>
+                    <div 
+                         className="h-[40px] w-full  bg-white border-black border-2 rounded-2xl flem items-center justify-center">
+                        <p className="text-2xl max-sm:text-lg tracking-wider px-5 py-5 max-sm:px-2 max-sm:py-1 uppercase">We promote</p>
                     </div>
                 </div>
 
