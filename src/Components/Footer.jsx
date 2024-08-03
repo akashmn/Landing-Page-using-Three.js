@@ -3,8 +3,8 @@ import { faFacebookF, faGithub, faInstagram, faXTwitter } from '@fortawesome/fre
 
 const Footer = () => {
   return (
-    <div className="h-[500px] w-full px-24 max-sm:px-3 pt-16 max-sm:pt-3">
-      <div className="h-[400px] w-full bg-black rounded-3xl px-20 py-14 flex flex-row gap-44">
+    <div className="h-[500px] max-sm:h-screen w-full px-24 max-sm:px-3 pt-16 max-sm:pt-3 max-sm:pb-3">
+      <div className="w-full bg-black rounded-3xl px-20 py-14 flex flex-row max-sm:flex-col gap-44">
         <div className="flex flex-col">
           <div className="flex flex-col">
             <p className="h-[80px] w-[250px] border-white border-2 bg-green-700 text-4xl text-white rounded-full px-8 py-5">Subscribe</p>
@@ -15,7 +15,7 @@ const Footer = () => {
             <button className="h-[59px] w-[90px] rounded-2xl -ml-[93px] font-semibold hover:bg-black hover:text-white hover:border-white hover:border-2 transition-all duration-300 bg-white">Send</button>
           </div>
         </div>
-        <div className='flex flex-row'>
+        <div className='flex flex-row max-sm:flex-col'>
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-5">
               <a href="" className="text-white opacity-70 hover:opacity-100 transition-all duration-300">About</a>
