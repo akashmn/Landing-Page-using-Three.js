@@ -15,7 +15,7 @@ const HeroSection = () => {
   return (
     <div className="relative h-screen flex justify-center items-center">
       <div className="relative w-full h-[620px] rounded-3xl border-black border-2 overflow-hidden select-none mx-5 -mt-20">
-        <ParticleRing className="absolute inset-0" />
+        <ParticleRing className="absolute inset-0 max-sm:hidden" />
         <div className="relative z-10 flex flex-col justify-center items-center gap-8 px-6 py-4 bg-white bg-opacity-0 h-full pointer-events-none">
           <div className="flex flex-col items-center justify-center mt-20">
             <p className="text-8xl pointer-events-auto" 
@@ -51,8 +51,8 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <a href="#" className="flex flex-row items-center justify-center mt-10 gap-3 pointer-events-auto">
-            <p className="tracking-widest opacity-50">
+          <a href="#" className="flex flex-row bg-white border-black border-2 p-2 rounded-xl items-center justify-center mt-10 gap-3 pointer-events-auto">
+            <p className="tracking-widest opacity-70">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter.typeString('Come Explore with Us')
