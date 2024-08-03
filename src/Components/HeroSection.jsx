@@ -13,8 +13,8 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="relative h-screen flex justify-center items-center">
-      <div className="relative w-full h-[620px] rounded-3xl border-black border-2 overflow-hidden select-none mx-5 -mt-20">
+    <div className="relative h-screen max-sm:h-[1000px] flex justify-center items-center">
+      <div className="relative w-full h-[620px] max-sm:h-[800px] rounded-3xl border-black border-2 overflow-hidden select-none mx-5 -mt-20 max-sm:-mt-36">
         <div className='max-sm:hidden'>
           <ParticleRing className="absolute inset-0 max-sm:hidden" />
         </div>
@@ -33,7 +33,7 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <div className="flex flex-row gap-5">
+          <div className="flex flex-row max-sm:flex-col gap-5">
             <div data-aos="zoom-in"
                  data-aos-duration="1200" 
                  className="h-[115px] w-[300px] flex flex-col items-center justify-end gap-4 pointer-events-auto">
@@ -53,8 +53,8 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <a href="#" className="flex flex-row bg-white border-black border-2 p-2 rounded-xl items-center justify-center mt-10 gap-3 pointer-events-auto">
-            <p className="tracking-widest opacity-70">
+          <a href="#" className="flex flex-row bg-white border-black border-2 p-2 rounded-xl items-center justify-center mt-10 max-sm:mt-0 max-sm:text-xs gap-3 pointer-events-auto">
+            <p className="tracking-widest max-sm:tracking-wider opacity-70">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter.typeString('Come Explore with Us')
