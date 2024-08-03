@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import Typewriter from 'typewriter-effect';
+import ParticleRing from '../3D/ParticleRings/ParticleRing';
 
 
 const HeroSection = () => {
@@ -13,6 +14,7 @@ const HeroSection = () => {
   return (
     <div className="z-0 px-6 py-4">
         <div className="h-[620px] w-full rounded-3xl border-black border-2 flex flex-col justify-center items-center gap-8">
+          <ParticleRing/>
           <div className="flex flex-col items-center justify-center mt-20">
             <p className="text-8xl" 
                 data-aos="fade-up"
