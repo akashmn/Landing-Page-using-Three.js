@@ -60,7 +60,7 @@ const Navbar = () => {
           Get in Touch
         </button>
         <button className="lg:hidden" onClick={toggleMenu}>
-          <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} size='xl' />
+          <FontAwesomeIcon icon={menuOpen ? faCaretUp : faCaretDown} size='xl' beatFade='xl' />
         </button>
       </div>
       {popUp && (
