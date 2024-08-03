@@ -9,15 +9,21 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 5500); // Loader will be displayed for 3 seconds
+    }, 5500); // Loader will be displayed for 5.5 seconds
 
     return () => clearTimeout(timer); // Cleanup the timer
   }, []);
 
   return (
     <>
-      <AnimateCursor/>
-      <Routing />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <AnimateCursor />
+          <Routing />
+        </>
+      )}
     </>
   );
 }
