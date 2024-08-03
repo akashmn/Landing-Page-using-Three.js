@@ -15,7 +15,7 @@ const Footer = () => {
             <button className="h-[59px] w-[90px] max-sm:h-[30px] max-sm:w-[45px] rounded-2xl -ml-[93px] max-sm:-ml-[48px] font-semibold hover:bg-black hover:text-white max-sm:text-sm hover:border-white hover:border-2 transition-all duration-300 bg-white">Send</button>
           </div>
         </div>
-        <div className='flex flex-row max-sm:flex-col-reverse'>
+        <div className='flex flex-row max-sm:flex-col-reverse max-sm:gap-4'>
           <div className="flex flex-col gap-5">
             <div className="flex flex-col max-sm:flex-row gap-5 max-sm:gap-3 max-sm:-ml-2">
               <a href="" className="text-white max-sm:text-sm opacity-70 hover:opacity-100 transition-all duration-300">About</a>
@@ -31,7 +31,7 @@ const Footer = () => {
               <a href=""><FontAwesomeIcon icon={faGithub} className="h-4 w-4 max-sm:h-3 max-sm:w-3 text-opacity-50 border-opacity-50 border-2 border-white text-white p-2 rounded-full hover:text-black hover:bg-white transition-all duration-300"/></a>
             </div>
           </div>
-          <div className='ml-28 mt-[170px]'>
+          <div className='ml-28 mt-[170px] max-sm:ml-2 max-sm:-mt-10 text-center'>
             <p className="text-white opacity-50 mt-10">© 2024 Qmark Technolabs. <br />All Rights Reserved</p>
           </div>
         </div>
